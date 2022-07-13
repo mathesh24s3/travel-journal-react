@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(245,90,90) ;
+}
+
+nav>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav--title {
+    color: rgb(255,255,255);
+    font-weight: 500;
+}
+
+.cover-img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}

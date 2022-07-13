@@ -1,0 +1,49 @@
+
+
+.card {
+    display: flex;
+    padding-block:1.25rem ;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    height: 168px;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location>img {
+    width: 7px;
+    height: 9.55px;
+    margin-right: 5px ;
+}
+
+.location>p {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.location>a {
+    color: rgb(145,142,155);
+    font-size: 10px;
+}
+
+.place {
+    margin-block: 0.25rem 0.5rem;
+}
+
+.travel-duration {
+    margin-top: 0;
+}
+
+.place-details  {
+    margin-top: 0;
+    font-size: 10px;
+}
